@@ -166,7 +166,8 @@ $RECYCLE.BIN/
 
 # Streamlit
 .streamlit/secrets.toml
-.streamlit/config.toml
+# Keep config.toml for Streamlit Cloud deployment
+# .streamlit/config.toml
 
 # Logs
 logs/
