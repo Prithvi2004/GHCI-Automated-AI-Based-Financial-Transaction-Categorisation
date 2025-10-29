@@ -1,0 +1,27 @@
+# Core ML Libraries
+pandas
+scikit-learn
+numpy
+PyYAML
+
+# Advanced ML
+xgboost
+
+# Explainability
+lime
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Performance Monitoring
+psutil
+
+# Utilities
+joblib
+tqdm
+
+# Web UI (Optional - for demo)
+streamlit
+streamlit-aggrid

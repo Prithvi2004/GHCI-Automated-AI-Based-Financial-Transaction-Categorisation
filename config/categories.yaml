@@ -1,0 +1,238 @@
+# Transaction Category Configuration
+# This file defines the category taxonomy for transaction classification
+# Add/modify categories and keywords to customize the categorization logic
+
+categories:
+  - name: "Shopping"
+    keywords:
+      [
+        "amazon",
+        "apple",
+        "target",
+        "walmart",
+        "ebay",
+        "best buy",
+        "costco",
+        "macys",
+        "nordstrom",
+        "ikea",
+        "home depot",
+        "lowes",
+        "kohls",
+        "tj maxx",
+        "ross",
+      ]
+    description: "Online and retail shopping, electronics, clothing, home goods"
+
+  - name: "Coffee/Dining"
+    keywords:
+      [
+        "starbucks",
+        "dunkin",
+        "cafe",
+        "peets",
+        "blue bottle",
+        "mcdonalds",
+        "chipotle",
+        "panera",
+        "subway",
+        "taco bell",
+        "wendys",
+        "chick-fil-a",
+        "olive garden",
+        "chilis",
+        "applebees",
+        "restaurant",
+        "dining",
+      ]
+    description: "Restaurants, cafes, fast food, dining out"
+
+  - name: "Fuel"
+    keywords:
+      [
+        "shell",
+        "exxon",
+        "chevron",
+        "mobil",
+        "sunoco",
+        "gas",
+        "petrol",
+        "bp",
+        "arco",
+        "valero",
+        "texaco",
+        "marathon",
+        "fuel",
+      ]
+    description: "Gas stations and fuel purchases"
+
+  - name: "Transport"
+    keywords:
+      [
+        "uber",
+        "lyft",
+        "taxi",
+        "metro",
+        "bus",
+        "train",
+        "amtrak",
+        "greyhound",
+        "bart",
+        "subway",
+        "parking",
+        "toll",
+        "transit",
+      ]
+    description: "Ride-sharing, public transit, parking, tolls"
+
+  - name: "Groceries"
+    keywords:
+      [
+        "kroger",
+        "whole foods",
+        "safeway",
+        "aldi",
+        "grocery",
+        "food",
+        "trader joes",
+        "publix",
+        "wegmans",
+        "harris teeter",
+        "giant",
+        "food lion",
+        "sprouts",
+        "fresh market",
+        "ralphs",
+        "vons",
+        "albertsons",
+      ]
+    description: "Grocery stores and supermarkets"
+
+  - name: "Health"
+    keywords:
+      [
+        "cvs",
+        "walgreens",
+        "pharmacy",
+        "clinic",
+        "doctor",
+        "rite aid",
+        "urgent care",
+        "dental",
+        "labcorp",
+        "quest",
+        "medical",
+        "health",
+        "optometry",
+        "physical therapy",
+        "chiropractor",
+      ]
+    description: "Healthcare, pharmacies, medical services"
+
+  - name: "Entertainment"
+    keywords:
+      [
+        "netflix",
+        "spotify",
+        "hulu",
+        "disney",
+        "movie",
+        "game",
+        "hbo",
+        "amazon prime",
+        "youtube",
+        "apple music",
+        "xbox",
+        "playstation",
+        "steam",
+        "amc",
+        "regal",
+        "cinema",
+        "ticketmaster",
+        "entertainment",
+      ]
+    description: "Streaming services, gaming, movies, concerts, events"
+
+  - name: "Transfers"
+    keywords:
+      [
+        "zelle",
+        "paypal",
+        "venmo",
+        "transfer",
+        "wire",
+        "ach",
+        "cash app",
+        "square",
+        "apple pay cash",
+        "google pay",
+        "payment",
+      ]
+    description: "Peer-to-peer transfers, wire transfers, payment apps"
+
+  - name: "Cash"
+    keywords:
+      [
+        "atm",
+        "withdrawal",
+        "cash",
+        "dispense",
+        "bank of america atm",
+        "chase atm",
+        "wells fargo atm",
+        "cash back",
+      ]
+    description: "ATM withdrawals and cash transactions"
+
+  - name: "Food Delivery"
+    keywords:
+      [
+        "doordash",
+        "grubhub",
+        "ubereats",
+        "uber eats",
+        "postmates",
+        "seamless",
+        "caviar",
+        "instacart",
+        "gopuff",
+        "delivery",
+      ]
+    description: "Food and grocery delivery services"
+
+  - name: "Utilities"
+    keywords:
+      [
+        "electric",
+        "water",
+        "gas company",
+        "comcast",
+        "internet",
+        "cable",
+        "verizon",
+        "at&t",
+        "t-mobile",
+        "sprint",
+        "wireless",
+        "phone",
+        "utility",
+        "waste management",
+      ]
+    description: "Utilities, internet, phone, cable services"
+
+  - name: "Insurance"
+    keywords:
+      [
+        "insurance",
+        "geico",
+        "state farm",
+        "progressive",
+        "allstate",
+        "usaa",
+        "blue cross",
+        "cigna",
+        "aetna",
+        "united healthcare",
+        "health insurance",
+      ]
+    description: "Insurance payments and premiums"
